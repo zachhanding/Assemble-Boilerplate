@@ -1,0 +1,21 @@
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,minimum-scale=1">
+<meta name="description" content="">
+<meta name="keywords" content="">
+<meta name="author" content="">
+<meta name = "format-detection" content = "telephone=no">
+
+<title>{{title}} | {{site.title}}</title>
+
+<link rel="stylesheet" href="{{assets}}/css/lib/bootstrap.min.css">
+<link rel="stylesheet" href="{{assets}}/css/lib/font-awesome.css">
+<link rel="stylesheet" href="{{assets}}/css/theme.css">
+
+<!-- Favicons -->
+<link rel="apple-touch-icon-precomposed" href="/apple-touch-icon-precomposed.png">
+<link rel="icon" href="/favicon.ico">
+
+{{#each css}}
+	<link rel="stylesheet" href="{{../assets}}/css/{{this}}.css">
+{{/each}}
